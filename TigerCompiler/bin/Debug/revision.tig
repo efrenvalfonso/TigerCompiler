@@ -1,0 +1,52 @@
+let
+
+	/*
+	type Persona = { nombre : string, edad : int, padre : Persona }
+	
+	var  z := Persona { nombre = "A", edad = 20, padre = z }
+	*/
+	
+	type Entero = int
+	
+	type ArrayInt = array of int
+	
+	type ArrayEntero = array of Entero
+	
+	var x1:ArrayInt := nil
+	
+	var x2:ArrayEntero := nil
+
+	/*
+	
+	function externa() =
+		let
+			var x : int := 30
+			
+			function g() =
+				let
+					var y := 3
+				in
+					printi(x)
+				end
+		in
+			g()
+		end
+		
+	*/
+in
+	//x1 := x2;
+	//externa();
+	getchar();
+	
+	let
+		type AliasArrayEntero = ArrayEntero
+		var q := 3
+		type ArrayEntero =  { a:int}
+		//var w:ArrayEntero := ArrayEntero { a = 5}
+		
+		var j : ArrayEntero := nil
+		var m : AliasArrayEntero := nil
+	in
+		printi(j = m)
+	end
+end

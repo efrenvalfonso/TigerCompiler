@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TigerCompiler.AstConverter" Collapsed="true">
+    <Position X="89.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AstConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.CodeGenerator" Collapsed="true">
+    <Position X="91.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAMgAAAQBEgAtAAAAAAAAAAIDCAEAAgqoCAAAgAMAAA=</HashCode>
+      <FileName>CodeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.Error" Collapsed="true">
+    <Position X="93.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Error.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.ErrorManager" Collapsed="true">
+    <Position X="95" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ErrorManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.Program" Collapsed="true">
+    <Position X="89.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.Scope" Collapsed="true">
+    <Position X="91.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACIASIBBiAIkAQASAAEQCCIBJAwAAwgBABAggAShY=</HashCode>
+      <FileName>Scope.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.ScopeManager" Collapsed="true">
+    <Position X="93.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACIASABBgQAkAUASCAAQCCIAAAwCAAgAAAAgAAQhQ=</HashCode>
+      <FileName>ScopeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.TypeNode" Collapsed="true">
+    <Position X="91.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAQAAAEAAIAAAAAAAAABAAA=</HashCode>
+      <FileName>TypeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.ArrayDeclarationNode" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAIAAAAAAAEQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\ArrayDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.DeclarationNode" Collapsed="true">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\DeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.ExpressionsSequenceDeclarationNode.ExpressionsSequenceDeclarationNode" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAABAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\ExpressionsSequenceDeclarationNode\ExpressionsSequenceDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.ExpressionsSequenceDeclarationNode.FunctionDeclarationNode" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAIAAEBAAAAAAMAAABAAIAABAAECAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\ExpressionsSequenceDeclarationNode\FunctionDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.TypeDeclarationNode.AliasTypeNode" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\TypeDeclarationNode\AliasTypeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.TypeDeclarationNode.ArrayTypeDeclarationNode" Collapsed="true">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\TypeDeclarationNode\ArrayTypeDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.TypeDeclarationNode.FieldTypeDeclarationNode" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\TypeDeclarationNode\FieldTypeDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.TypeDeclarationNode.RecordTypeDeclarationNode" Collapsed="true">
+    <Position X="19.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\TypeDeclarationNode\RecordTypeDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.TypeDeclarationNode.TypeDeclarationNode" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\TypeDeclarationNode\TypeDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.VarDeclarationNode.IdentificatorVariableNode" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\VarDeclarationNode\IdentificatorVariableNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.VarDeclarationNode.VarDeclarationNode" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\VarDeclarationNode\VarDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.DeclarationNode.VarDeclarationNode.VariableDeclarationNode" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAYAAAAAAAAAAEEACAAAAUgAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\DeclarationNode\VarDeclarationNode\VariableDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.AccesNode.AccessNode" Collapsed="true">
+    <Position X="77.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\AccesNode\AccessNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.AccesNode.ArrayAccessNode.IndexerNode" Collapsed="true">
+    <Position X="76" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\AccesNode\ArrayAccessNode\IndexerNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.AccesNode.FieldAccessNode.FieldAccessNode" Collapsed="true">
+    <Position X="78.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAQAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\AccesNode\FieldAccessNode\FieldAccessNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.AssignmentNode" Collapsed="true">
+    <Position X="82.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAQAQAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\AssignmentNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ExpressionSequenceNode" Collapsed="true">
+    <Position X="85" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAgAAQAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ExpressionSequenceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.FieldAssignmentNode" Collapsed="true">
+    <Position X="87.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAQAAAEAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\FieldAssignmentNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.FunctionCallNode" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAIAAAAAAIAAgEQAAAAYAAAIAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\FunctionCallNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.InstructionNode" Collapsed="true">
+    <Position X="54.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\InstructionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.RecordAssignmentNode" Collapsed="true">
+    <Position X="73.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\RecordAssignmentNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.TupleNode" Collapsed="true">
+    <Position X="80.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIAAAAAAAAAAEAQAAAAAAAAgAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\TupleNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.BasicTypeNode.BasicTypeNode" Collapsed="true">
+    <Position X="33.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\BasicTypeNode\BasicTypeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.BasicTypeNode.IntNode" Collapsed="true">
+    <Position X="31" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\BasicTypeNode\IntNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.BasicTypeNode.NillNode" Collapsed="true">
+    <Position X="33.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\BasicTypeNode\NillNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.BasicTypeNode.StringNode" Collapsed="true">
+    <Position X="35.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAIAAAAgAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\BasicTypeNode\StringNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.BreakNode" Collapsed="true">
+    <Position X="42.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAECAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\BreakNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.ControlNode" Collapsed="true">
+    <Position X="33.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\ControlNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.LetNode" Collapsed="true">
+    <Position X="24.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAQAAAIAAIAAADAQAAAAMAAAAAAQAAgAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\LetNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.ConditionalNode.ConditionalNode" Collapsed="true">
+    <Position X="27.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\ConditionalNode\ConditionalNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.ConditionalNode.IfThenElseNode" Collapsed="true">
+    <Position X="26.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAEAAAAIAAAABAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\ConditionalNode\IfThenElseNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.ConditionalNode.IfThenNode" Collapsed="true">
+    <Position X="28.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAIAAAABAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\ConditionalNode\IfThenNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.LoopNode.ForNode" Collapsed="true">
+    <Position X="37.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAIAAAJAAAAAAEAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\LoopNode\ForNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.LoopNode.LoopNode" Collapsed="true">
+    <Position X="39" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\LoopNode\LoopNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.ControlNode.LoopNode.WhileNode" Collapsed="true">
+    <Position X="40" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\ControlNode\LoopNode\WhileNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.BinaryNode" Collapsed="true">
+    <Position X="59.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\BinaryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ArithmeticNode.ArithmeticNode" Collapsed="true">
+    <Position X="54.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ArithmeticNode\ArithmeticNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ArithmeticNode.DivNode" Collapsed="true">
+    <Position X="51.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ArithmeticNode\DivNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ArithmeticNode.MultiplyNode" Collapsed="true">
+    <Position X="53.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ArithmeticNode\MultiplyNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ArithmeticNode.SubstractionNode" Collapsed="true">
+    <Position X="55.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ArithmeticNode\SubstractionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ArithmeticNode.SumNode" Collapsed="true">
+    <Position X="58" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ArithmeticNode\SumNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ComparisonNode.ComparisonNode" Collapsed="true">
+    <Position X="66" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\ComparisonNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ComparisonNode.EqualityComparisonNode.EqualityComparisonNode" Collapsed="true">
+    <Position X="70.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\EqualityComparisonNode\EqualityComparisonNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ComparisonNode.EqualityComparisonNode.EqualNode" Collapsed="true">
+    <Position X="69.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\EqualityComparisonNode\EqualNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ComparisonNode.EqualityComparisonNode.NotEqualNode" Collapsed="true">
+    <Position X="71.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\EqualityComparisonNode\NotEqualNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ComparisonNode.RelationalComparisonNode.GreaterThanEqualNode" Collapsed="true">
+    <Position X="60.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\RelationalComparisonNode\GreaterThanEqualNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ComparisonNode.RelationalComparisonNode.GreaterThanNode" Collapsed="true">
+    <Position X="62.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\RelationalComparisonNode\GreaterThanNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ComparisonNode.RelationalComparisonNode.LessThanEqualNode" Collapsed="true">
+    <Position X="64.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\RelationalComparisonNode\LessThanEqualNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ComparisonNode.RelationalComparisonNode.LessThanNode" Collapsed="true">
+    <Position X="67" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\RelationalComparisonNode\LessThanNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.ComparisonNode.RelationalComparisonNode.RelationalComparisonNode" Collapsed="true">
+    <Position X="63.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\RelationalComparisonNode\RelationalComparisonNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.NoShortCircuitBinaryNode.NoShortCircuitBinaryNode" Collapsed="true">
+    <Position X="61.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\NoShortCircuitBinaryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.ShortCircuitBinaryNode.LogicalNode.AndNode" Collapsed="true">
+    <Position X="46.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\ShortCircuitBinaryNode\LogicalNode\AndNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.ShortCircuitBinaryNode.LogicalNode.LogicalNode" Collapsed="true">
+    <Position X="48" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\ShortCircuitBinaryNode\LogicalNode\LogicalNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.ShortCircuitBinaryNode.LogicalNode.OrNode" Collapsed="true">
+    <Position X="49" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\ShortCircuitBinaryNode\LogicalNode\OrNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.BinaryNode.ShortCircuitBinaryNode.ShortCircuitBinaryNode" Collapsed="true">
+    <Position X="48" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\ShortCircuitBinaryNode\ShortCircuitBinaryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.OperationNode" Collapsed="true">
+    <Position X="58" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\OperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.UnaryNode.MinusNode" Collapsed="true">
+    <Position X="44.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\UnaryNode\MinusNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.InstructionNode.OperationNode.UnaryNode.UnaryNode" Collapsed="true">
+    <Position X="44.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\InstructionNode\OperationNode\UnaryNode\UnaryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.hierarchy.LanguageNode.LanguageNode" Collapsed="true">
+    <Position X="45.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAIIAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hierarchy\LanguageNode\LanguageNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.MyTypes.ArrayType" Collapsed="true">
+    <Position X="14" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyTypes\ArrayType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.MyTypes.BasicType" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyTypes\BasicType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.MyTypes.ComplexType" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyTypes\ComplexType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.MyTypes.ErrorType" Collapsed="true">
+    <Position X="9.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyTypes\ErrorType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.MyTypes.IntType" Collapsed="true">
+    <Position X="0.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyTypes\IntType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.MyTypes.MyType" Collapsed="true">
+    <Position X="7.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAAAAQIEgAAAAAQBCAAAAIAAAAAABAAAAAA=</HashCode>
+      <FileName>MyTypes\MyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.MyTypes.NilType" Collapsed="true">
+    <Position X="2.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyTypes\NilType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.MyTypes.RecordType" Collapsed="true">
+    <Position X="11.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>MyTypes\RecordType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.MyTypes.StringType" Collapsed="true">
+    <Position X="5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyTypes\StringType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.MyTypes.VoidType" Collapsed="true">
+    <Position X="7.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyTypes\VoidType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerLexer" Collapsed="true">
+    <Position X="95" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>nCnd1o1ePx4vt+oA7OvfvoGs+a99UpDef7cij00+nbs=</HashCode>
+      <FileName>TigerLexer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerParser" Collapsed="true">
+    <Position X="89.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GIDH5uVf/wQr58sU2fdSXpGkkX1dtjlXa0WiyYnoC5c=</HashCode>
+      <FileName>TigerParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="TigerCompiler.LoadStandardLibraryFunction" Collapsed="true">
+    <Position X="89.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CodeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

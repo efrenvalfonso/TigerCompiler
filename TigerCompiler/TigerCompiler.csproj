@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F574A564-6A7F-48FA-B7B3-1FF0EFFEB0A4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TigerCompiler</RootNamespace>
+    <AssemblyName>tiger</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>D:\School\4th\Complemento de Compilacion\Proyecto de Compilación. C4. 2011-2012\Antlr 3.3 &amp; AntlrWorks 1.4.2\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodeGenerator.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\FieldAssignmentNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\ComparisonNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\EqualityComparisonNode\EqualityComparisonNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\EqualityComparisonNode\EqualNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\EqualityComparisonNode\NotEqualNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\NoShortCircuitBinaryNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\ShortCircuitBinaryNode\ShortCircuitBinaryNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\TupleNode.cs" />
+    <Compile Include="TigerLexer.cs" />
+    <Compile Include="TigerParser.cs" />
+    <Compile Include="TypeNode.cs" />
+    <Compile Include="AstConverter.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\ExpressionsSequenceDeclarationNode\ExpressionsSequenceDeclarationNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\TypeDeclarationNode\RecordTypeDeclarationNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\AccesNode\AccessNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\AccesNode\ArrayAccessNode\IndexerNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\AccesNode\FieldAccessNode\FieldAccessNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\AssignmentNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\DeclarationNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\TypeDeclarationNode\AliasTypeNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\TypeDeclarationNode\ArrayTypeDeclarationNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\TypeDeclarationNode\TypeDeclarationNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\VarDeclarationNode\IdentificatorVariableNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\VarDeclarationNode\VarDeclarationNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\VarDeclarationNode\VariableDeclarationNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ExpressionSequenceNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\FunctionCallNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\ExpressionsSequenceDeclarationNode\FunctionDeclarationNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\ArrayDeclarationNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\BasicTypeNode\BasicTypeNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\BasicTypeNode\IntNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\BasicTypeNode\NillNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\BasicTypeNode\StringNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\BreakNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\ConditionalNode\ConditionalNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\ConditionalNode\IfThenElseNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\ConditionalNode\IfThenNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\ControlNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\LoopNode\ForNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\LoopNode\LoopNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\LoopNode\WhileNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\InstructionNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ArithmeticNode\ArithmeticNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ArithmeticNode\DivNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ArithmeticNode\MultiplyNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ArithmeticNode\SubstractionNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ArithmeticNode\SumNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\BinaryNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\ShortCircuitBinaryNode\LogicalNode\AndNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\ShortCircuitBinaryNode\LogicalNode\LogicalNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\ShortCircuitBinaryNode\LogicalNode\OrNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\RelationalComparisonNode\GreaterThanEqualNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\RelationalComparisonNode\GreaterThanNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\RelationalComparisonNode\LessThanEqualNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\RelationalComparisonNode\LessThanNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\BinaryNode\NoShortCircuitBinaryNode\ComparisonNode\RelationalComparisonNode\RelationalComparisonNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\OperationNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\UnaryNode\MinusNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\OperationNode\UnaryNode\UnaryNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\RecordAssignmentNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\LanguageNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\InstructionNode\ControlNode\LetNode.cs" />
+    <Compile Include="hierarchy\LanguageNode\DeclarationNode\TypeDeclarationNode\FieldTypeDeclarationNode.cs" />
+    <Compile Include="MyTypes\ArrayType.cs" />
+    <Compile Include="MyTypes\BasicType.cs" />
+    <Compile Include="MyTypes\ComplexType.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="MyTypes\ErrorType.cs" />
+    <Compile Include="MyTypes\IntType.cs" />
+    <Compile Include="MyTypes\MyType.cs" />
+    <Compile Include="MyTypes\NilType.cs" />
+    <Compile Include="MyTypes\RecordType.cs" />
+    <Compile Include="MyTypes\StringType.cs" />
+    <Compile Include="MyTypes\VoidType.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scope.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DiagramClass.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
